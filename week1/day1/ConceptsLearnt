@@ -1,0 +1,18 @@
+1. To do precision handling in python - 
+    Use the round() function
+	  round(variable_name, number_of_places_after_decimal_point)
+2. To sort an array - 
+	  Use the sort() function
+  	arr.sort() - sorts in ascending order
+  	arr.sort(reverse = True) - sorts in descending order
+    After applying the function, we can print it or do any other operation on the array.
+3. To convert time from 12 hour clock to 24 hour clock - 
+  	a. Use the datetime library - from datetime import datetime
+  	    strptime() function - used to parse the input time according to the format "%I:%M %p", where %I represents the hour (01-12), %M represents the minutes, and %p represents the AM/PM indicator
+        strftime() function - used to convert the parsed time to a string in the format "%H:%M", where %H represents the hour (00-23) in 24-hour format, and %M represents the minutes.
+  	
+  	b. Without external libraries - using split() function
+  		1. handle AM & PM
+  		2. handle PM by adding 12 except if hours is 12
+  		3. handle AM by converting 12 to 0
+
