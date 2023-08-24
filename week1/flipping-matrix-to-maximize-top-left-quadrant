@@ -1,0 +1,11 @@
+def flippingMatrix(matrix):
+    sum=0
+    size=len(matrix)
+    for i in range(0,size//2,1):
+        for j in range(0,size//2,1):
+            r1=i
+            r2=size-i-1
+            c1=j
+            c2=size-j-1
+            sum += max(max(matrix[r1][c1], matrix[r1][c2]),max(matrix[r2][c1], matrix[r2][c2]) )
+    return sum
