@@ -21,3 +21,7 @@ print(original_list)  # Output: [1, 2, 3, 4, 5, 6]
 abs() function - 
 The abs() function in Python is used to return the absolute value of a number, which is its distance from zero on the number line. The abs() function can be applied to various numeric types, including integers, floating-point numbers, and complex numbers.
 syntax - abs(x)
+-------------------------------------------------------------------------------------------------------------------------------
+XOR operator - 
+The XOR (exclusive OR) operator is a logical operator in Python that returns True if exactly one of the two operands is True, and False if both operands are either True or False.
+In Python, the XOR operator is represented by the ^ symbol.
