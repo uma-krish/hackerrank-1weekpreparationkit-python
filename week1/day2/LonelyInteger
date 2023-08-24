@@ -4,4 +4,16 @@ def lonelyinteger(a):
     for num in a:
         result ^= num
     return result
-    
+
+USING LOOP
+def lonelyinteger(a):
+    a.sort()
+    i = 0
+    while i < len(a) - 1:
+        if a[i] != a[i + 1]:
+            return a[i]
+            break
+        i += 2
+
+    if i == len(a) - 1:
+        return a[i]
