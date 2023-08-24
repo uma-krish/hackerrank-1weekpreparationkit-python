@@ -6,7 +6,7 @@ fruits = ['apple', 'banana', 'cherry', 'date']
 
 for index, fruit in enumerate(fruits):
     print(index, fruit)
-
+-------------------------------------------------------------------------------------------------------------------------------
 extend() function - 
 The extend() method in Python is used to extend a list by appending elements from an iterable (such as a list, tuple, string, etc.) to the end of the original list. It modifies the list in place and does not create a new list. The elements from the iterable are added one by one to the end of the list.
 syntax - list.extend(iterable)
@@ -17,4 +17,7 @@ new_elements = [4, 5, 6]
 original_list.extend(new_elements)
 
 print(original_list)  # Output: [1, 2, 3, 4, 5, 6]
-
+-------------------------------------------------------------------------------------------------------------------------------
+abs() function - 
+The abs() function in Python is used to return the absolute value of a number, which is its distance from zero on the number line. The abs() function can be applied to various numeric types, including integers, floating-point numbers, and complex numbers.
+syntax - abs(x)
